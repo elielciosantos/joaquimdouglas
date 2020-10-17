@@ -139,6 +139,7 @@ a:hover {
 
 .first-content img {
   height: 100vh;
+  min-width: 470px;
 }
 
 .baner-content {
@@ -186,7 +187,7 @@ a:hover {
 }
 
 .service-content .left-text {
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.7);
   padding: 25px 30px;
   text-align: justify;
   color: #fff;
@@ -511,7 +512,13 @@ footer em {
 
 @media (max-width: 767px) {
   .baner-content {
-    padding-top: 30vh;
+    --padding-top: 30vh;
+    
+  }
+
+  .baner-content .container {
+    padding: 0px;
+    margin: 0px;
   }
 
   .baner-content h1 {
@@ -526,7 +533,7 @@ footer em {
   }
 
   .baner-content .primary-button {
-    margin-top: 15px;
+    --margin-top: 15px;
   }
 
   .service-content {
