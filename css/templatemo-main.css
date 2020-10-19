@@ -130,7 +130,6 @@ a:hover {
   letter-spacing: 0.5px;
 }
 
-
 .parallax-content {
   width: 100%;
   min-height: 100vh;
@@ -139,7 +138,6 @@ a:hover {
 
 .first-content img {
   height: 100vh;
- 
 }
 
 .baner-content {
@@ -173,6 +171,25 @@ a:hover {
 
 .baner-content .primary-button {
   margin-top: 15px;
+}
+
+.videos-content {
+  background-image: url(../img/fundo_cinza.jpg);
+  background-attachment: fixed;
+  /*min-height: 60vh; */
+  padding-top: 25px;
+  padding-bottom: 25px;
+  background-size: cover;
+  background-position: center center;
+}
+
+.videos-content .video-moldura {
+  padding: 30px 30px;
+}
+
+.videos-content video {
+  height: 100%;
+  width: 100%;
 }
 
 .service-content {
@@ -249,15 +266,15 @@ h4,
 
 .projects-content {
   padding-top: 20vh;
-  background-image: url(../img/fundo_campogrande.jpg);    
+  background-image: url(../img/fundo_campogrande.jpg);
 }
 
 .projects-content .item img {
-  width: 100%;  
+  width: 100%;
 }
 
 .projects-content .item {
-  margin: 15px;  
+  margin: 15px;
 }
 
 .projects-content .item .text-content {
@@ -268,7 +285,7 @@ h4,
 
 .projects-content .container .title {
   padding: 10px;
-  background-color: rgba(0, 0, 0, 0.5);  
+  background-color: rgba(0, 0, 0, 0.5);
   border-radius: 15px;
 }
 
@@ -290,7 +307,7 @@ h4,
   font-style: normal;
   font-size: 17px;
   font-weight: 700;
-  color: #ff7d27;    
+  color: #ff7d27;
 }
 
 .projects-content .item .h4 {
@@ -299,9 +316,8 @@ h4,
   font-weight: 600;
 }
 
-
 .projects-content .item .img {
-  min-height: 270px;    
+  min-height: 270px;
   background-color: #fff;
 }
 
@@ -322,7 +338,6 @@ h4,
   -moz-border-radius: 20px;
   border-radius: 20px;
   background: #fff;
-  
 }
 
 .tabs-content {
@@ -511,14 +526,13 @@ footer em {
 }
 
 @media (max-width: 767px) {
-  .baner-content {    
+  .baner-content {
     margin: 0px;
   }
 
   .first-content img {
-    height: 100vh;       
+    height: 100vh;
     margin-left: -30px;
-    
   }
 
   .baner-content .container {
@@ -535,10 +549,6 @@ footer em {
 
   .baner-content span {
     font-size: 24px;
-  }
-
-  .baner-content .primary-button {
-    --margin-top: 15px;
   }
 
   .service-content {
