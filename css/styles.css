@@ -1,0 +1,38 @@
+.principalBody {
+  font-size: 14px;
+  height: 100vh;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 0.8799894957983193) 30%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  padding: 3vh;
+  text-align: center;
+}
+
+.principalBody h1 {
+  font-size: calc(1.1em + 6vmin);
+  color: #fff;
+}
+
+.principalBody h2 {
+  font-size: calc(1.1em + 1vmin);
+  color: #fff;
+}
+
+.principalBody .msgAlerta {
+  background-color: rgba(250, 186, 9, 0.904);
+  padding: 30px;
+  border-radius: 15px;
+  text-align: justify;
+  color: #fff;
+  font-size: calc(1.1em + 1vmin);
+  text-align: center;
+}
+
+.principalBody .fotoCandidato img {
+  height: 400px;
+  width: 420px;
+}
